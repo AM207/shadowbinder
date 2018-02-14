@@ -1,5 +1,6 @@
 channels:
 - defaults
+- pytorch
 dependencies:
 - matplotlib
 - nbconvert
@@ -8,6 +9,8 @@ dependencies:
 - scipy
 - seaborn
 - scikit-learn
+- pytorch-cpu 
+- torchvision
 - pip:
   - pymc3
   - tensorflow
